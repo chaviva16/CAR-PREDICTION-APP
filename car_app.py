@@ -3,7 +3,28 @@ import joblib
 import pandas as pd
 import numpy as np
 from sklearn.impute import SimpleImputer
-import numpy as np
+import yaml
+
+
+
+
+
+
+# Load configuration from config.yaml
+with open("config.yaml", "r") as file:
+    config = yaml.safe_load(file)
+
+# Access configuration settings
+model_path = config["model_path"]
+selector_path = config["selector_path"]
+poly_path = config["poly_path"]
+app_settings = config["app_settings"]
+
+# Print or use the configuration settings
+st.write("Model path:", model_path)
+st.write("App settings:", app_settings)
+
+
 
 np.random.seed(42)
 # Load the model and preprocessing objects
