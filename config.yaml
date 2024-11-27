@@ -1,0 +1,9 @@
+# config.yaml
+
+model_path: stacking_model.pkl
+selector_path: selector.pkl
+poly_path: poly.pkl
+app_settings:
+  debug_mode: true
+  host: "0.0.0.0"
+  port: 8501
