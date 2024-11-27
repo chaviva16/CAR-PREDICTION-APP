@@ -4,8 +4,13 @@ import pandas as pd
 import numpy as np
 from sklearn.impute import SimpleImputer
 import yaml
+import random
+
 
 np.random.seed(42)
+random.seed(42)
+
+
 
 # Load configuration from config.yaml
 with open("config.yaml", "r") as file:
@@ -22,7 +27,7 @@ app_settings = config["app_settings"]
 
 
 
-np.random.seed(42)
+
 # Load the model and preprocessing objects
 model = joblib.load('stacking_model.pkl')
 selector = joblib.load('selector.pkl')  # Pre-saved SelectKBest
