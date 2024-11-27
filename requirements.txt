@@ -54,3 +54,4 @@ tzdata==2024.1
 urllib3==2.2.3
 watchdog==5.0.3
 xgboost==2.1.1
+pyyaml==6.0.2
