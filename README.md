@@ -1,6 +1,6 @@
-## Car Price # 🚗 Car Price Prediction App
+## 🚗 Car Price Prediction App
 
-This project is a **Machine Learning-powered web app** that predicts the selling price of a used car based on key features like brand, year, fuel type, and more. It's built using Python, Streamlit, and scikit-learn, and is deployed online for easy access and use.
+This project is a **Machine Learning web app** that predicts the selling price of a used car based on key features like brand, year, fuel type, and more. It's built using Python, Streamlit, and scikit-learn, and is deployed online for easy access and use.
 
 ## 📌 Project Objective
 
